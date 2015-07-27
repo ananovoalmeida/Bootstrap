@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>BootStrap</title>
+	<meta name="description" content="Exemplos Bootstrap">
+	<meta name="author" content="Ana Almeida">
+	<!-- BootStrap Data -->
+	<meta name="viewport" content="width=device-width, initial-scale=1" >
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</head>
+
+<style>
+	body {
+		padding-top: 50px;
+	}
+</style>
+<body data-spy="scroll" data-target="#main-navbar">
+	<!-- NAVBAR -->
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="main-navbar" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="sr-only">Toggle Navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<a href="index.html" class="navbar-brand">Product Name</a>
+			</div>
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+				<a href="" class="btn btn-success navbar-btn nav-bar-rigth">Buy Now</a>
+				<ul class="nav navbar-nav">
+					<li><a href="#section-testimonials">Testimonials</a></li>
+					<li><a href="#section-features">Features</a></li>
+					<li><a href="#section-gallery">Gallery</a></li>
+					<li><a href="#section-faq">F.A.Q.</a></li>
+					<li><a href="#section-contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- BANNER -->
+	<div class="jumotron">
+		<header class="container text-center">
+			<h1>Great Product Title</h1>
+			<p>Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit</p>
+			<div class="btn-group">
+				<a href="#" class="btn btn-lg- btn-success">Buy Now</a>
+				<a href="#" class="btn btn-lg- btn-default">Try it Free</a>
+			</div>
+		</header> 
+	</div>
+
+	<!-- TESTIMONIALS -->
+	<div class="container">
+		<section>
+			<header class="page-header" id="section-testimonials">
+				<h2>Testimonials. <small>This is what our customers are saying about us.</small></h2>
+			</header>
+			<div class="row">
+				<article class="col-md-4">
+					<blockquote>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum est sapien, scelerisque vitae augue id, imperdiet rhoncus sapien. Proin cursus.</p>
+						<footer>Cite author</footer>
+					</blockquote>
+				</article> 
+				<article class="col-md-4">
+					<blockquote>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum est sapien, scelerisque vitae augue id, imperdiet rhoncus sapien. Proin cursus.</p>
+						<footer>Cite author</footer>
+					</blockquote>
+				</article>
+				<article class="col-md-4">
+					<blockquote>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum est sapien, scelerisque vitae augue id, imperdiet rhoncus sapien. Proin cursus.</p>
+						<footer>Cite author</footer>
+					</blockquote>
+				</article>
+			</div>
+			
+			<p class="text-center"><em>Wanna tell us about the products? Head over to the contact form.</em></p>
+			<p class="text-center"><a href="#section-contact" class="btn btn-default">Contact Us</a></p>
+		</section>
+
+		<!-- FEATURES -->
+		<section>
+			<header class="page-header" id="section-features">
+				<h2>Features. <small>What its all about.</small></h2>
+			</header>
+			<div class="row">
+				<article class="col-sm-8">
+					<h3>This is a feature title</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum est sapien, scelerisque vitae augue id, imperdiet rhoncus sapien. Proin cursus.</p>
+				</article>
+				<figure class="col-sm-4">
+					<img src="img/img1.jpg" alt="Iphone" class="img-responsive">
+				</figure>
+
+				<article class="col-sm-8">
+					<h3>This is a feature title</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum est sapien, scelerisque vitae augue id, imperdiet rhoncus sapien. Proin cursus.</p>
+				</article>
+				<figure class="col-sm-4">
+					<img src="img/img2.jpg" alt="Iphone" class="img-responsive">
+				</figure>
+
+				<article class="col-sm-8">
+					<h3>This is a feature title</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum est sapien, scelerisque vitae augue id, imperdiet rhoncus sapien. Proin cursus.</p>
+				</article>
+				<figure class="col-sm-4">
+					<img src="img/img3.jpg" alt="Iphone" class="img-responsive">
+				</figure>
+			</div>
+
+			<hr>
+
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="panel panel-default text-center">
+						<div class="panel-body">
+							<span class="glyphicon glyphicon-search"></span>
+							<header>
+								<h4>This is a smaller feature.</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</header>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="panel panel-default text-center">
+						<div class="panel-body">
+							<span class="glyphicon glyphicon-ok"></span>
+							<header>
+								<h4>This is a smaller feature.</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</header>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="panel panel-default text-center">
+						<div class="panel-body">
+							<span class="glyphicon glyphicon-time"></span>
+							<header>
+								<h4>This is a smaller feature.</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</header>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- TRIAL -->
+		<section>
+			<div class="well">
+				<div class="container text-center">
+					<header>
+						<h3>Subscrive now for a 30-day free trial</h3>
+						<p>Enter your name and email bellow</p>
+					</header>
+
+					<form action="#" class="form-inline" role="form">
+						<div class="form-group">
+							<label for="subscribe-name" class="sr-only">Name</label>
+							<input type="text" class="form-control" id="subscribe-name" placeholder="Name">
+						</div>
+
+						<div class="form-group">
+							<label for="subscribe-email" class="sr-only">Email Address</label>
+							<input type="text" class="form-control" id="subscribe-email" placeholder="Email">
+						</div>
+	
+						<button type="submit" class="btn btn-default">Subscribe!</button>
+
+						<p><small><em>We will only use your email address for sending the download link.</em></small></p>
+					</form>		
+				</div>
+			</div>
+		</section>
+		
+		<!-- GALLERY -->
+		<div class="container">
+			<section>
+				<header class="page-header" id="section-gallery">
+					<h2>Gallery. <small>Take a look at some application screenshots.</small></h2>
+				</header>
+
+				<div class="carousel slide" id="gallery-carousel" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#gallery-carousel" data-slide-to="0" class="active"></li>
+						<li data-target="#gallery-carousel" data-slide-to="1"></li>
+						<li data-target="#gallery-carousel" data-slide-to="2"></li>
+					</ol>
+
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="img/slider-1.jpg" alt="Slider image">
+							<div class="carousel-caption">This is a caption.</div>
+						</div>
+						<div class="item">
+							<img src="img/slider-2.jpg" alt="Slider image">
+							<div class="carousel-caption">This is a caption.</div>
+						</div>
+						<div class="item">
+							<img src="img/slider-3.jpg" alt="Slider image">
+							<div class="carousel-caption">This is a caption.</div>
+						</div>
+					</div>
+					<a href="#gallery-carousel" class="left-carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+
+					<a href="#gallery-carousel" class="right-carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+				</div>
+			</section>
+
+			<!-- F-A.Q. -->
+			<section>
+				<header class="page-header" id="section-faq">
+					<h2>Frequently Asked Questions. <small>A little Q&amp;A to get you started.</small></h2>
+				</header>
+
+				<div class="panel-group" id="accordion-qa">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title"><a href="#qa-1" data-toggle="collapse" data-parent="#accordion-qa">Question 1</a></h4>
+						</div>
+						
+						<div class="panel-collapse collapse in" id="qa-1">
+							<div class="panel-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum est sapien, scelerisque vitae augue id, imperdiet rhoncus sapien. Proin cursus.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title"><a href="#qa-2" data-toggle="collapse" data-parent="#accordion-qa">Question 2</a></h4>
+						</div>
+
+						<div class="panel-collapse" id="qa-2">
+							<div class="panel-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum est sapien, scelerisque vitae augue id, imperdiet rhoncus sapien. Proin cursus.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title"><a href="#qa-3" data-toggle="collapse" data-parent="#accordion-qa">Question 3</a></h4>
+						</div>
+						<div class="panel-collapse" id="qa-3">
+							<div class="panel-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum est sapien, scelerisque vitae augue id, imperdiet rhoncus sapien. Proin cursus.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- CONTACT -->
+			<section>
+				<header class="page-header" id="section-contact">
+					<h2>Contact Us. <small>Let's get in touch.</small></h2>
+				</header>
+				<div class="row">
+					<div class="col-lg-4">
+						<p>To send us a message, use the contact form or the information bellow.</p>
+						<address>
+							<strong>Envato Pty Ltd</strong><br>
+							121 King Street, Malbourne<br>
+							Victoria 3000 Australia<br>
+							<abbr title="Phone">P: </abbr>+12 12231 1231
+						</address>
+					</div>
+					<div class="col-lg-8">
+						<form action="#" class="form-horizontal" role="form">
+							<div class="form-group">
+								<label for="contact-name" class="col-lh-2 control-label">Name</label>
+								<div class="col-lg-10">
+									<input type="text" class="form-control" id="contact-name" placeholder="Name">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label for="contactemail" class="col-lh-2 control-label">Email Address</label>
+								<div class="col-lg-10">
+									<input type="text" class="form-control" id="contactemail" placeholder="Email">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label for="contact-website" class="col-lh-2 control-label">WebSite</label>
+								<div class="col-lg-10">
+									<input type="text" class="form-control" id="contact-WebSite" placeholder="WebSite">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="contact-message" class="col-lh-2 control-label">Message</label>
+								<div class="col-lg-10">
+									<textarea name="contact-message" id="contact-message" class="form-control" cols="30" rows="10" placeholder="Message"></textarea>
+								</div>
+							</div>
+							<div class="formgroup">
+								<div class="col-lg-10 col-lg-offset-2">
+									<button type="submit" class="btn btn-primary">Send Message!</button>
+								</div>
+							</div>
+						</form>
+						
+					</div>
+					
+				</div>
+			</section>
+			<footer>
+				<hr>
+				<div class="container text-center">
+					<header>
+						<h3>Subscrive now for a 30-day free trial</h3>
+						<p>Enter your name and email bellow</p>
+					</header>
+
+					<form action="#" class="form-inline" role="form">
+						<div class="form-group">
+							<label for="subscribe-name" class="sr-only">Name</label>
+							<input type="text" class="form-control" id="subscribe-name" placeholder="Name">
+						</div>
+
+						<div class="form-group">
+							<label for="subscribe-email" class="sr-only">Email Address</label>
+							<input type="text" class="form-control" id="subscribe-email" placeholder="Email">
+						</div>
+
+						<button type="submit" class="btn btn-default">Subscribe!</button>
+
+						<p><small><em>We will only use your email address for sending the download link.</em></small></p>
+					</form>		
+
+					<hr>
+
+					<ul class="list-inline">
+						<li><a href="#">Twitter</a></li>
+						<li><a href="#">Facebook</a></li>
+					</ul>
+
+					<p>&copy; Copyright 2014.</p>
+				</div>
+			</footer>
+		</div>
+	</div>
+</body>
+	
+</html>
